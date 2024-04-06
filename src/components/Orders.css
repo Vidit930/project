@@ -1,0 +1,20 @@
+/* Orders.css */
+
+.Orders {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin-right: 20px; /* Add margin to the right for spacing */
+}
+
+.Orders button {
+    background-color: #703b09; /* Match navbar background color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Orders button:hover {
+    background-color:  #5a2d06; /* Darker shade for hover effect */
+}

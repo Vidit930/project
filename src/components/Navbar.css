@@ -1,0 +1,59 @@
+/* Navbar.css */
+
+.Toolbar__Toolbar__2hkfg {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #703b09;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.BurgerBuilder,
+.Login,
+.Orders {
+    color: #f5f0f0; /* Default text color */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+.BurgerBuilder:hover,
+.Login:hover,
+.Orders:hover {
+    background-color: #8f5c2c; /* Darker background on hover */
+}
+
+/* Add hover effect for active links */
+.BurgerBuilder.active,
+.Login.active,
+.Orders.active {
+    background-color: #5a2d06; /* Darker background for active links */
+}
+
+/* Styling for the login form */
+.login-form {
+    position: absolute;
+    top: 56px; /* Adjust to position below the navbar */
+    left: 10;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #703b09; /* Match navbar background color */
+    border-top: none; /* Remove top border to blend with navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Styling for the login form inputs and button */
+.login-form input,
+.login-form button {
+    margin-bottom: 10px; /* Add spacing between inputs and button */
+}
